@@ -1,27 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="shortcut icon" href="midias/favicon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu trajeto</title>
 </head>
 <body>
-    <h1>Minha rota de estudo</h1>
-    <p class="introducao">Esse é o trajeto que eu criei para me guiar nos meus estudos.</p>
-    <h2>Primeiros passos:</h2>
-    <a href="paginas/htmlcss.html"><div><p>HTML e CSS</p></div></a>
-    <a href="https://www.cursoemvideo.com/curso/javascript/" target="_blank"><div><p>JavaScript</p></div></a>
-    <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA" target="_blank"><div><p>Usando o GitHub</p></div></a>
-    <a href="https://www.cursoemvideo.com/curso/linux/" target="_blank"><div><p>Curso de Linux</p></div></a>
-    <h2>Proximos passos:</h2>
-    <a href="https://www.cursoemvideo.com/curso/curso-de-algoritmo/" target="_blank"><div><p>Algoritmo</p></div></a>
-    <a href="paginas/seo.html"><div><p>SEO</p></div></a>
-    <h2>Passos avançados:</h2>
-    <a href="https://www.cursoemvideo.com/curso/java-basico/" target="_blank"><div><p>Java</p></div></a>
-    <a href="paginas/python.html"><div><p>Python</p></div></a>
-    <h2 class="meus-links">Meus links:</h2>
-    <p class="link-pessoal"><a href="https://www.linkedin.com/in/caio-henrique-maier-de-lara-3b5962348/" target="_blank">LinkedIn</a></p>
-    <p class="link-pessoal"><a href="https://github.com/CaioMaier" target="_blank">GitHub</a></p>
+    <main>
+        <h1>MEUS ESTUDOS</h1>
+        <p class="sub-titulo">Esse é o trajeto que eu criei para me guiar nos meus estudos.</p>
+        <h2>Primeiros passos:</h2>
+        <div class="cursos">
+            <a href="paginas/htmlcss.html"><div class="botao"><p>HTML e CSS</p></div></a>
+            <a href="https://www.cursoemvideo.com/curso/javascript/" target="_blank"><div class="botao"><p>JavaScript</p></div></a>
+            <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA" target="_blank"><div class="botao"><p>Usando o GitHub</p></div></a>
+            <a href="https://www.cursoemvideo.com/curso/linux/" target="_blank"><div class="botao"><p>Curso de Linux</p></div></a>
+        </div>
+        <h2>Proximos passos:</h2>
+        <div class="cursos">
+            <a href="https://www.cursoemvideo.com/curso/curso-de-algoritmo/" target="_blank"><div class="botao"><p>Algoritmo</p></div></a>
+            <a href="paginas/seo.html"><div class="botao"><p>SEO</p></div></a>
+        </div>
+        <h2>Passos avançados:</h2>
+        <div class="cursos">
+            <a href="https://www.cursoemvideo.com/curso/java-basico/" target="_blank"><div class="botao"><p>Java</p></div></a>
+            <a href="paginas/python.html"><div class="botao"><p>Python</p></div></a>
+        </div>
+    </main>
+    <div class="sobre-mim">
+        <h1>QUEM SOU EU?</h1>
+        <div class="caio">
+            <img class="eu" src="midias/minha-foto.jpeg" alt="minha foto"> 
+            <p class="minha-bio">
+                <strong>Caio Henrique Maier de Lara</strong><br>
+                Me chamo Caio, tenho 23 anos e em janeiro de 2025 iniciei meus estudos em programação. Venho estudando HTML e CSS e, com a base que estou adquirindo nos meus estudos, desenvolvi essa página. Muito em breve pretendo iniciar meus estudos em JS, dando meu segundo passo e começando uma linguagem de programação de fato.
+                Pretendo registrar aqui meus avanços, linkar mais e mais conteúdos, conforme eu for avançando e aprendendo mais. Minha intenção é que, um dia, isso possa ser útil a alguém que está iniciando também.
+        </div>
+        <h2 class="meus-links">Meus links:</h2>
+        <div class="links-pessoais">
+            <p class="link"><img class="icon" src="midias/linkedin.png" alt="linkedin-icon"><a href="https://www.linkedin.com/in/caio-henrique-maier-de-lara-3b5962348/" target="_blank">LinkedIn</a></p>
+            <p class="link"><img class="icon" src="midias/github.png" alt="github-icon"><a href="https://github.com/CaioMaier" target="_blank">GitHub</a></p>
+            <p class="link"><img class="icon" src="midias/instagram.png" alt="instagram-icon"><a href="https://www.instagram.com/_h.cml/" target="_blank">Instagram</a></p>
+        </div>
+        </p>
+    </div>
 </body>
 </html>
